@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RoadmapComponent } from './roadmap/roadmap.component'
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RoadmapComponent
+    RoadmapComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
