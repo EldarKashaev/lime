@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RoadmapComponent } from './roadmap/roadmap.component'
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { CounterComponent } from './counter/counter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     RoadmapComponent,
-    SidebarComponent
+    SidebarComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
