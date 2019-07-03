@@ -1,0 +1,37 @@
+.counter {
+  position: absolute;
+  top: 60px;
+  left: 160px;
+  margin: auto;
+}
+
+.counter .foreground {
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  margin: auto 0;
+  z-index: 1;
+}
+
+.counter .background {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background:blueviolet;
+  height: 60px;
+  width: 20px;
+  animation-name: time;
+  animation-duration: 1s; /* or: Xms */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+  animation-fill-mode: forwards; /* or: backwards, both, none */
+}
+
+@keyframes time {
+  from {
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+}
